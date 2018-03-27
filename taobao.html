@@ -1,25 +1,100 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
+
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=Chrome">
     <title>淘宝</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
 </head>
+
 <body>
     <!-- nivagation -->
     <div class="nivagation">
         <div class="bd">
-            <ul>
-                    <li>中国大陆</li>
-                    <li>Jerry215Zs</li>
-                    <li>消息</li>
-                    <li>手机逛淘宝</li>
-            </ul> 
+            <div class="nivagation-left">
+                <ul>
+                    <li>
+                        <div class="menu">
+                            <span>中国大陆</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu">
+                            <span>jerry215zs</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu">
+                            <img src="../webdesign/open-iconic/png/envelope-closed.png" alt="menu-down">
+                            <span>消息</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu">
+                            <span>手机逛淘宝</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nivagation-right">
+                <ul>
+                    <li>
+                        <div class="menu">
+                            <span>我的淘宝</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu">
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                            <span>购物车</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu">
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                            <span>收藏夹</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu">
+                            <span>商品分类</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu">
+                            <span>卖家中心</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu">
+                            <span>联系客服</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu">
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                            <span>网站导航</span>
+                            <img src="../webdesign/open-iconic/png/arrow-bottom.png" alt="menu-down">
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
+
     </div>
+
     <!-- head -->
     <div class="head">
         <div class="warp">
@@ -30,12 +105,12 @@
                 <!-- search type -->
                 <div class="searcher-type">
                     <ul>
-                        <li>宝贝</li>
-                        <li>天猫</li>
-                        <li>店铺</li>
+                        <li class="searcher-tab-is-active">宝贝</li>
+                        <li class="searcher-tab">天猫</li>
+                        <li class="searcher-tab">店铺</li>
                     </ul>
                 </div>
-                
+
                 <!-- searcher -->
                 <input class="searcher" value="输入你想搜索的宝贝名称">
                 <input class="confirm-button" type="submit" value="搜索">
@@ -46,7 +121,7 @@
 
             </div>
             <div class="head-right">
-                <img src="image/2dcode.png" alt="Google">
+                <img src="image/2dcode.png">
             </div>
         </div>
     </div>
@@ -55,5 +130,8 @@
     <!--  bootstrap script -->
 
     <!--  jquery script -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/taobao.js"></script>
 </body>
+
 </html>
