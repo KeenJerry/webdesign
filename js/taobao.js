@@ -1,4 +1,6 @@
+
+
 $(".searcher-tab").click(function(){
-    $(".searcher-tab-is-active").attr("class", "searcher-tab");
-    $(this).attr("class", "searcher-tab-is-active");
+    $(".searcher-tab.searcher-tab-is-active").toggleClass("searcher-tab-is-active");
+    $(this).toggleClass("searcher-tab-is-active");
 })

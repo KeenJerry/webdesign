@@ -163,6 +163,10 @@ body {
     border-bottom-left-radius: 22px;
     
 }
+.searcher-ht {
+    position: relative;
+    
+}
 .confirm-button {
     float: left;
     margin: 0;
