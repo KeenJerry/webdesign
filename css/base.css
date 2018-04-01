@@ -154,33 +154,45 @@ body {
     float: left;
     margin: 0;
     padding: 0;
-    width: 526px;
-    height: 44px;
+    width: 554px;
+    height: 40px;
     border: #f40;
     border-style: solid;
     border-width: 2px;
     border-top-left-radius: 22px;
     border-bottom-left-radius: 22px;
-    
+    border-right: none;
 }
 .searcher-ht {
     position: relative;
-    
+    float: left;
+    padding-top: 5px;
+    height: 18px;
+    color: rgb(116, 116, 116);
+    font-weight: 100;
+    font-size: 12px;
+    margin-right: 8px;
+     
 }
 .confirm-button {
     float: left;
     margin: 0;
     padding: 0;
     width: 74px;
-    height: 44px;
+    height: 40px;
     color: white;
     text-align: center;
     background: #f40;
     border: #f40;
-    border-width: 2px;
+    border-left: none;
     border-top-right-radius: 22px;
     border-bottom-right-radius: 22px;
     
+}
+
+.more {
+    float: right;
+    margin-left: 56 px;
 }
 
 /* right in head for searcher
