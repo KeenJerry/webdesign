@@ -163,17 +163,6 @@ body {
     border-bottom-left-radius: 22px;
     border-right: none;
 }
-.searcher-ht {
-    position: relative;
-    float: left;
-    padding-top: 5px;
-    height: 18px;
-    color: rgb(116, 116, 116);
-    font-weight: 100;
-    font-size: 12px;
-    margin-right: 8px;
-     
-}
 .confirm-button {
     float: left;
     margin: 0;
@@ -189,10 +178,23 @@ body {
     border-bottom-right-radius: 22px;
     
 }
-
+.searcher-ht {
+    position: relative;
+    float: left;
+    padding-top: 5px;
+    height: 18px;
+    color: rgb(116, 116, 116);
+    font-weight: 100;
+    font-size: 12px;
+    margin-right: 8px;
+     
+}
 .more {
     float: right;
     margin-left: 56 px;
+}
+.mh {
+    color:#f40;
 }
 
 /* right in head for searcher

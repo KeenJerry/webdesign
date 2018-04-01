@@ -6,12 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Chrome">
     <title>jquery-test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $("p:first").click(function(){
+                $(this).css("background-color", "red");
+            });
+
+            $("input[value='2']").css("height", "20px");
+            
+
+            $("button").click(function(){
+                $("input[checked='checked']").css("height", "50px");
+            });
+            
+        });
+
+    </script>
 </head>
 <body>
 
-    
+    <div id="container">
+        <p class="para">para</p>
+        <input type="checkbox" value="1" name="check" checked="checked" />
+
+        <input type="checkbox" value="2" name="check" checked="checked" />
+        
+        <input type="checkbox" value="3" name="check" checked="checked" />
+
+        <input type="checkbox" value="4" name="check" checked="checked" />
+        <button>button</button>
+        <p class="para">para</p>
+    </div>
     <!-- jquery -->
-    <script src="jquery.min.js"></script>
     <script src="jquery-test.js"></script>
 </body>
 
