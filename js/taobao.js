@@ -56,3 +56,18 @@ setInterval(function(){
         range_3 = 0;
     }
 }, 3000)
+
+$(".enter").hover(function(){
+    
+    $(".enter.selected").toggleClass("selected");
+    $(".mod").toggleClass("hidden");
+    index = $(this).index();
+
+    $(this).toggleClass("selected");
+    var ul = $(".mod.hidden").eq(0);
+    alert(ul.count());
+
+    $(ul).toggleClass("hidden");
+    var range = index * 50;
+    $(ul).css("transform", "translate3d(0px," + range + "px, 0px)");
+});
